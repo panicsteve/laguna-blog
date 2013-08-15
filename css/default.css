@@ -1,0 +1,127 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	padding: 0;
+	margin: 0px 60px 0px 240px;
+	width: 500px;
+	background-color: white;
+	font-family: Helvetica, sans-serif;
+	font-size: 13px;
+}
+
+h1 {
+	float: left;
+	color: #000;
+	text-align: right;
+	margin: -9px 0px 0px -196px;
+	font-size: 18px;
+	padding: 8px 0px 0px 0px;
+	width: 180px;
+}
+
+h1 a {
+	color: #000;
+}
+
+h2 {
+	font-size: 12px;
+	color: #000;
+	padding: 6px 0px 8px 0px;
+	margin: 0;
+}
+
+li {
+	padding-bottom: 6px;
+}
+
+p {
+	margin: 0px 0px 10px 0px;
+	line-height: 1.4em;
+	padding: 0;
+}
+
+img {
+	margin: 4px 0px 4px 0px;
+	padding: 0;
+}
+
+a {
+	color: #00f;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+blockquote {
+	background-color: #ffffe0;
+	margin: 0px 0px 8px 0px;
+	padding: 20px 20px 20px 20px;
+	font-size: 14px;
+}
+
+#copyright {
+	color: #777;
+	clear: both;
+	font-size: 11px;
+	margin: 20px 0px 0px 0px;
+	padding-bottom: 20px;
+	line-height: 1.2em;
+}
+
+#next {
+	text-align: right;
+	float: right;
+	margin: 20px 0px 10px 0px;
+	padding: 2px;
+	width: 45%;
+	font-weight: bold;
+	color: #777;
+}
+
+#previous {
+	float: left;
+	margin: 20px 0px 10px 0px;
+	padding: 2px;
+	width: 45%;
+	font-weight: bold;
+	color: #777;
+}
+
+#sitebanner {
+	font-family: Helvetica, sans-serif;
+	font-size: 32px;
+	font-weight: bold;
+	padding: 0;
+	margin: 20px 0px 0px 0px;
+}
+
+#sitebanner a {
+	color: #000;
+}
+
+#tagline {
+	color: #777;
+	clear: both;
+	font-size: 14px;
+	margin: 0px 0px 28px 0px;
+	padding: 0;
+	line-height: 1.4em;
+}
+
+.time {
+	font-size: 14px;
+	color: #777;
+	margin-top: -15px;
+}
+
+/* Fix for consistent vertical alignment of byline with first paragraph between Safari & FF */
+
+h1 { margin-top: 1px; padding: 0; }
+p { margin-top: 0px; padding: 0; }
+@media screen and (-webkit-min-device-pixel-ratio:0) { h1 { margin-top: -2px; } }
